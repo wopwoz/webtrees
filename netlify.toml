@@ -4,4 +4,5 @@
 
   # 构建命令
   command = "composer install && npm install && npm run production"
-
+[build.environment]
+  PHP_VERSION = "8.1"  # 根据项目需求调整版本
