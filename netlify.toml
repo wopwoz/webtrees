@@ -1,0 +1,7 @@
+[build.environment]
+  # 指定 PHP 和 Node.js 版本
+  PHP_VERSION = "8.1"
+  NODE_VERSION = "16"
+
+[[plugins]]
+  package = "netlify-plugin-composer-install"
