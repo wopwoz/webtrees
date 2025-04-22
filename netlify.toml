@@ -1,3 +1,9 @@
+[build]
+  # 指定发布目录（根据你的项目结构调整）
+  publish = "public"
+
+  # 构建命令
+  command = "composer install && npm install && npm run production"
 [build.environment]
   # 指定 PHP 和 Node.js 版本
   PHP_VERSION = "8.1"
